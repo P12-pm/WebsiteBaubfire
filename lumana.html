@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lumana — Case Study (Demo)</title>
+  <meta name="description" content="A modern, responsive case study page with smooth animations and parallax." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lstyles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-reveal>
+    <div class="container nav">
+      <a class="logo" href="index.html" aria-label="Studio Home">BAUNFIRE<span>•</span></a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+
+      <nav id="primary-nav" class="nav-links" aria-label="Primary">
+        <a href="#overview">Overview</a>
+        <a href="#design">Design</a>
+        <a href="#components">Components</a>
+        <a href="#results">Results</a>
+        <a class="btn btn--sm" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero section--xl">
+      <div class="container grid grid--2">
+        <div class="hero__content" data-reveal>
+          <p class="eyebrow">Case study</p>
+          <h1 class="display">
+            Lumana<br />
+            Website design & development
+          </h1>
+          <p class="lead">
+            A polished digital presence designed to elevate brand perception and drive conversion across platforms.
+          </p>
+
+          <div class="tags">
+            <span class="tag">Strategy</span>
+            <span class="tag">UX/UI</span>
+            <span class="tag">Development</span>
+            <span class="tag">Motion</span>
+          </div>
+
+          <div class="actions">
+            <a class="btn" href="#overview">Explore project</a>
+            <a class="btn btn--ghost" href="#" aria-disabled="true">Visit site ↗</a>
+          </div>
+
+          <ul class="meta">
+            <li><span>Client</span><b>Lumana</b></li>
+            <li><span>Industry</span><b>Fintech</b></li>
+            <li><span>Timeline</span><b>12 weeks</b></li>
+            <li><span>Platform</span><b>Custom (Headless)</b></li>
+          </ul>
+        </div>
+
+        <figure class="hero__media" data-parallax data-speed="0.12" aria-label="Project preview">
+          <img
+            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1600&auto=format&fit=crop"
+            alt="Hero project preview"
+            loading="eager"
+            class="media media--cover"
+          />
+          <figcaption class="sr-only">High-level preview of the Lumana interface</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section id="overview" class="section">
+      <div class="container grid grid--2">
+        <div class="section__heading" data-reveal>
+          <h2>Overview</h2>
+          <p class="muted">Defining goals and outcomes</p>
+        </div>
+        <div class="richtext" data-reveal>
+          <p>
+            We partnered with Lumana to modernize their digital brand and streamline their product story.
+            The result is a scalable design system, fast pages, and a refined on-brand aesthetic that translates across devices.
+          </p>
+          <p>
+            The experience balances clarity and motion, leading with narrative sections, full-bleed visuals, and subtle micro-interactions that guide users without overwhelming them.
+          </p>
+          <div class="bullets">
+            <div>
+              <h4>Scope</h4>
+              <ul>
+                <li>Brand exploration & content architecture</li>
+                <li>Responsive UI design system</li>
+                <li>Front-end development</li>
+                <li>Accessibility & performance</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Stack</h4>
+              <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Headless CMS (optional)</li>
+                <li>Analytics & A/B testing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Full-bleed image with parallax -->
+    <section class="section section--flush">
+      <figure class="fullbleed" data-parallax data-speed="0.18">
+        <img
+          src="https://images.unsplash.com/photo-1559526324-593bc073d938?q=80&w=1900&auto=format&fit=crop"
+          alt="Full-bleed mockup"
+          loading="lazy"
+          class="media media--cover"
+        />
+      </figure>
+    </section>
+
+    <!-- Design system -->
+    <section id="design" class="section">
+      <div class="container">
+        <div class="section__heading" data-reveal>
+          <h2>Design system</h2>
+          <p class="muted">Typography, color, and UI tokens</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card" data-reveal>
+            <h3>Typography</h3>
+            <p class="muted">Space Grotesk / Inter</p>
+            <div class="type-stack">
+              <div class="display">Aa</div>
+              <div>
+                <p class="h1">Headings</p>
+                <p>Body text and UI helpers sit on Inter for superior readability.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-reveal>
+            <h3>Color</h3>
+            <div class="swatches">
+              <span class="swatch" style="--sw:#0b0b10"></span>
+              <span class="swatch" style="--sw:#e8eef7"></span>
+              <span class="swatch" style="--sw:#7bdcff"></span>
+              <span class="swatch" style="--sw:#8f94ff"></span>
+            </div>
+            <p class="muted">High contrast with gentle accents for motion cues and CTAs.</p>
+          </article>
+
+          <article class="card" data-reveal>
+            <h3>UI elements</h3>
+            <ul class="pill-list">
+              <li class="tag">Buttons</li>
+              <li class="tag">Inputs</li>
+              <li class="tag">Cards</li>
+              <li class="tag">Chips</li>
+              <li class="tag">Tooltips</li>
+              <li class="tag">Empty states</li>
+            </ul>
+            <p class="muted">Reusable, scalable components for rapid iteration.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Components grid -->
+    <section id="components" class="section">
+      <div class="container">
+        <div class="section__heading" data-reveal>
+          <h2>Components in context</h2>
+          <p class="muted">Responsive layouts across breakpoints</p>
+        </div>
+
+        <div class="grid grid--3">
+          <figure class="tile" data-reveal>
+            <img
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop"
+              alt="Dashboard component"
+              class="media media--cover"
+              loading="lazy"
+            />
+            <figcaption>Data-rich dashboard</figcaption>
+          </figure>
+
+          <figure class="tile" data-reveal>
+            <img
+              src="https://images.unsplash.com/photo-1550238895-45a89c4d3c57?q=80&w=1600&auto=format&fit=crop"
+              alt="Mobile component"
+              class="media media--cover"
+              loading="lazy"
+            />
+            <figcaption>Mobile-first flows</figcaption>
+          </figure>
+
+          <figure class="tile" data-reveal>
+            <img
+              src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop"
+              alt="Marketing page"
+              class="media media--cover"
+              loading="lazy"
+            />
+            <figcaption>Marketing landing modules</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results / Metrics -->
+    <section id="results" class="section section--muted">
+      <div class="container grid grid--3">
+        <div class="section__heading" data-reveal>
+          <h2>Results</h2>
+          <p class="muted">Impact after launch</p>
+        </div>
+
+        <div class="stat" data-reveal>
+          <div class="stat__value" data-count-to="38">0</div>
+          <div class="stat__label">Faster load time</div>
+        </div>
+        <div class="stat" data-reveal>
+          <div class="stat__value" data-count-to="62">0</div>
+          <div class="stat__label">Increase in conversions</div>
+        </div>
+        <div class="stat" data-reveal>
+          <div class="stat__value" data-count-to="94">0</div>
+          <div class="stat__label">Core Web Vitals pass</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Next project CTA -->
+    <section class="section section--cta">
+      <a href="hrllo.html">
+      <div class="container cta" data-reveal>
+        <p class="eyebrow">Next</p>
+        <h2 class="display">Start a project</h2>
+        <a class="btn btn--wide" href="hello.html">View next case study →</a>
+      </div>
+      </a>
+    </section>
+
+    <!-- Contact / Footer -->
+    <footer id="contact" class="footer">
+      <div class="container grid grid--3">
+        <div>
+          <a class="logo logo--footer" href="#">BAUNFIRE<span>•</span></a>
+          <p class="muted">Design + build for ambitious brands.</p>
+        </div>
+        <nav aria-label="Footer">
+          <ul class="footer-links">
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#design">Design</a></li>
+            <li><a href="#components">Components</a></li>
+            <li><a href="#results">Results</a></li>
+          </ul>
+        </nav>
+        <div class="footer-cta">
+         
+          <a href="hello.html">Start a project</a>
+          <p class="small muted">© <span id="year"></span> Your Studio. All rights reserved.</p>
+         
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="lscript.js"></script>
+</body>
+</html>
