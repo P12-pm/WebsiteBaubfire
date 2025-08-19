@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Case Study Template</title>
+  <meta name="description" content="Modern case study template with smooth scrolling, reveal animations, and responsive layout." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="astyles.css" />
+</head>
+<body>
+  <!-- Top progress bar -->
+  <div id="progress"></div>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="logo" href="#hero" aria-label="Home">
+        <span class="logo-mark">◆</span> Your Studio
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="nav" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="#overview" data-nav-link>Overview</a></li>
+          <li><a href="#challenge" data-nav-link>Challenge</a></li>
+          <li><a href="#solution" data-nav-link>Solution</a></li>
+          <li><a href="#results" data-nav-link>Results</a></li>
+          <li><a href="#gallery" data-nav-link>Gallery</a></li>
+          <li><a href="#contact" data-nav-link>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="section-hero">
+      <div class="hero-media" aria-hidden="true">
+        <!-- Replace with your own licensed image/video -->
+        <img data-src="https://images.unsplash.com/photo-1543946602-a0fce8117699?q=80&w=1600&auto=format&fit=crop" alt="" class="lazy" />
+      </div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow reveal">Case Study</p>
+        <h1 class="hero-title reveal">
+          Robotics Automation
+          <span class="hero-gradient">Reimagined</span>
+        </h1>
+        <p class="hero-subtitle reveal">
+          Building a scalable digital presence for an advanced robotics brand—story, visuals, and interactions that move.
+        </p>
+
+        <div class="hero-meta reveal">
+          <div>
+            <span class="meta-label">Client</span>
+            <span class="meta-value">Your Client Name</span>
+          </div>
+          <div>
+            <span class="meta-label">Services</span>
+            <span class="meta-value">Strategy, Web Design, Development</span>
+          </div>
+          <div>
+            <span class="meta-label">Year</span>
+            <span class="meta-value">2025</span>
+          </div>
+        </div>
+
+        <a href="#overview" class="scroll-cue" aria-label="Scroll to Overview">
+          <span class="dot"></span> Scroll
+        </a>
+      </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section id="overview" class="section section-tight" data-section>
+      <div class="container grid-2">
+        <div class="col reveal">
+          <h2>Overview</h2>
+          <p>
+            We partnered to clarify positioning and build a high-performance site that showcases robotics innovation. The
+            result is an editorial experience with motion, modular content, and strong storytelling.
+          </p>
+        </div>
+        <div class="col details reveal">
+          <ul class="details-list">
+            <li><span>Industry</span><strong>Robotics, AI</strong></li>
+            <li><span>Scope</span><strong>Brand, UI/UX, Front-end</strong></li>
+            <li><span>Stack</span><strong>HTML5, CSS3, JavaScript</strong></li>
+            <li><span>Deliverables</span><strong>Design System, Website</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE IMAGE -->
+    <section class="section-wide media-block" aria-label="Feature image">
+      <div class="media-inner reveal">
+        <img class="lazy" data-src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1920&auto=format&fit=crop" alt="Robotics arm in factory" />
+      </div>
+    </section>
+
+    <!-- CHALLENGE -->
+    <section id="challenge" class="section" data-section>
+      <div class="container grid-2">
+        <div class="col reveal">
+          <h2>The Challenge</h2>
+          <p>
+            Translate complex robotics tech into a simple, persuasive narrative. Increase lead quality while
+            building trust with enterprise buyers.
+          </p>
+          <ul class="bullets">
+            <li>Communicate value across multiple audiences</li>
+            <li>Design a modular content system for growth</li>
+            <li>Keep performance and accessibility first</li>
+          </ul>
+        </div>
+        <div class="col reveal">
+          <div class="card">
+            <img class="lazy" data-src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop" alt="Control panel interface" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section id="solution" class="section" data-section>
+      <div class="container">
+        <h2 class="reveal">The Solution</h2>
+
+        <div class="features">
+          <div class="feature-card reveal">
+            <h3>Editorial Layouts</h3>
+            <p>Story-first sections with strong typography and media-forward layouts.</p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Motion & Micro-interactions</h3>
+            <p>Scroll reveals, parallax hero, and subtle hovers to guide attention.</p>
+          </div>
+          <div class="feature-card reveal">
+            <h3>Performance</h3>
+            <p>Lazy-loaded media, CSS-driven effects, and semantic, accessible markup.</p>
+          </div>
+        </div>
+
+        <div class="media-row">
+          <div class="media-col reveal">
+            <img class="lazy" data-src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1200&auto=format&fit=crop" alt="Hardware product close-up" />
+          </div>
+          <div class="media-col reveal">
+            <img class="lazy" data-src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=1200&auto=format&fit=crop" alt="Data visualization" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results" class="section section-accent" data-section>
+      <div class="container">
+        <h2 class="reveal">Results</h2>
+        <div class="stats">
+          <div class="stat reveal">
+            <span class="stat-number" data-count="62">0</span>
+            <span class="stat-label">Faster Time on Task</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat-number" data-count="38">0</span>
+            <span class="stat-label">Increase in Qualified Leads</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat-number" data-count="95">0</span>
+            <span class="stat-label">Lighthouse Performance</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section section-tight" data-section>
+      <div class="container">
+        <h2 class="reveal">Gallery</h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="reveal">
+          <img class="lazy" data-src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1500&auto=format&fit=crop" alt="Warehouse robots" />
+        </figure>
+        <figure class="reveal">
+          <img class="lazy" data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8mrlpdZjOwieAjjaQR2QwNIylcVa4NfVwwg&s" alt="Team collaboration" />
+        </figure>
+        <figure class="reveal">
+          <img class="lazy" data-src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1500&auto=format&fit=crop" alt="Code and devices" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="section section-quote">
+      <div class="container">
+        <blockquote class="quote reveal">
+          “The new site tells our story with clarity and momentum. It’s beautiful, fast, and drives real conversations.”
+          <cite>— VP Growth, Robotics Co.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="contact" class="section section-cta" data-section>
+      <div class="container">
+        <h2 class="reveal">Let’s build something remarkable</h2>
+        <p class="reveal">Have a project in mind? We’d love to hear about it.</p>
+        <a class="btn reveal" href="hello.html">Start a project</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Your Studio. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+        <li><a href="#" aria-label="Dribbble">Dribbble</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="ascript.js" defer></script>
+</body>
+</html>
