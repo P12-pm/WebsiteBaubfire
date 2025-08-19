@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Talk - Build Something Great Together</title>
+    <link rel="stylesheet" href="hstyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" aria-label="Main Navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <svg width="120" height="40" viewBox="0 0 120 40">
+                        <text x="0" y="30" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="#000">baunfire</text>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="nav-menu">
+                <button class="menu-toggle">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </button>
+                <span class="menu-text">Menu</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Full Screen Menu Overlay -->
+    <div class="menu-overlay">
+        <div class="menu-content">
+            <nav class="menu-links" aria-label="Menu Links">
+                <a href="#work" class="menu-link" data-text="Work">Work</a>
+                <a href="#services" class="menu-link" data-text="Services">Services</a>
+                <a href="#about" class="menu-link" data-text="About">About</a>
+                <a href="#insights" class="menu-link" data-text="Insights">Insights</a>
+                <a href="#contact" class="menu-link" data-text="Contact">Contact</a>
+            </nav>
+            <div class="menu-footer">
+                <div class="menu-social">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Let's</span>
+                    <span class="title-line">Talk</span>
+                </h1>
+                <p class="hero-subtitle">Ready to elevate your digital presence? We're here to help you build something extraordinary.</p>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-element element-1"></div>
+                <div class="floating-element element-2"></div>
+                <div class="floating-element element-3"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text"></span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <a href="mailto:hello@baunfire.com" class="contact-link">hello@baunfire.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Phone</h3>
+                            <a href="tel:+14088998998" class="contact-link">(408) 899-8998</a>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Location</h3>
+                            <address>
+                                75 E Santa Clara St, Ste 1425<br>
+                                San Jose, California 95113
+                            </address>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M20 2H4C2.9 2 2 2.9 2 4V20C2 21.1 2.9 22 4 22H20C21.1 22 22 21.1 22 20V4C22 2.9 21.1 2 20 2ZM8 19H5V9H8V19ZM6.5 7.5C5.67 7.5 5 6.83 5 6C5 5.17 5.67 4.5 6.5 4.5C7.33 4.5 8 5.17 8 6C8 6.83 7.33 7.5 6.5 7.5ZM19 19H16V13.5C16 12.5 15.5 12 14.5 12C13.5 12 13 12.5 13 13.5V19H10V9H13V10.5C13.5 9.5 14.5 9 15.5 9C17.5 9 19 10.5 19 12.5V19Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M22 5.9C21.3 6.2 20.5 6.4 19.7 6.5C20.5 6 21.1 5.2 21.4 4.3C20.6 4.8 19.8 5.1 18.8 5.3C18.1 4.5 17 4 15.9 4C13.7 4 11.9 5.8 11.9 8C11.9 8.3 11.9 8.6 12 8.9C8.7 8.7 5.8 7.1 3.9 4.7C3.5 5.3 3.3 6 3.3 6.8C3.3 8.2 4 9.4 5.1 10.1C4.5 10.1 3.9 9.9 3.4 9.6C3.4 11.6 4.8 13.2 6.6 13.6C6.3 13.7 5.9 13.7 5.5 13.7C5.3 13.7 5 13.7 4.8 13.6C5.3 15.2 6.8 16.4 8.6 16.4C7.2 17.5 5.5 18.1 3.6 18.1C3.3 18.1 3 18.1 2.7 18C4.5 19.2 6.7 20 9 20C15.9 20 19.9 13.8 19.9 8.5C19.9 8.3 19.9 8.2 19.9 8C20.7 7.4 21.4 6.7 22 5.9Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="company" name="company">
+                            <label for="company">Company</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="project-type" name="project-type" required>
+                                <option value="" disabled selected></option>
+                                <option value="web-design">Web Design</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="branding">Branding</option>
+                                <option value="digital-strategy">Digital Strategy</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="project-type">Project Type</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Tell us about your project</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <div class="btn-bg"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">What We Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <h3>Web Design</h3>
+                    <p>Creating visually stunning and user-centric digital experiences that captivate and convert.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h3>Development</h3>
+                    <p>Building robust, scalable web solutions with cutting-edge technologies and best practices.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <h3>Strategy</h3>
+                    <p>Crafting data-driven digital strategies that align with your business goals and drive growth.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">04</div>
+                    <h3>Branding</h3>
+                    <p>Developing compelling brand identities that resonate with your audience and stand out.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to start your project?</h2>
+                <p class="cta-subtitle">Let's create something extraordinary together.</p>
+                <div class="cta-animation">
+                    <div class="cta-circle"></div>
+                    <div class="cta-circle"></div>
+                    <div class="cta-circle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>baunfire</h3>
+                    <p>A digital agency creating impactful brand experiences on the web.</p>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Baunfire. All rights reserved.</p>
+                    <p>Silicon Valley, California</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="hscript.js"></script>
+</body>
+</html>
